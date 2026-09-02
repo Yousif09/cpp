@@ -1,0 +1,13 @@
+ICompiling with c++: 
+
+
+if you want to compile c++ code use g++ instead of gcc because g++ automatically links the c++ standard
+library. whereas gcc does not!
+
+A test run could look something like this...
+
+g++ -std=c++20 helloworld.cpp -o main
+
+./main: to run your executable
+
+OR LITERALLY JUST USE g++ program.cpp -o main (this is easier)
